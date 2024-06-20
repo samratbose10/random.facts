@@ -11,7 +11,19 @@
         <h1>Random Fictional Animal Facts</h1>
         <p id="fact">Click the button to learn a new fact about the mythical Creatura!</p>
         <button onclick="generateFact()">Generate Fact</button>
+        <img id="image1" class="fact-image" src="image1.jpg" alt="Image 1">
+        <img id="image2" class="fact-image" src="image2.png" alt="Image 2">
+        <img id="image3" class="fact-image" src="image3.png" alt="Image 3">
     </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Welcome to Fictional Animal Facts!</h2>
+            <p>Would you like a tour of the site?</p>
+            <button id="no-button" onclick="moveButton()">No needed</button>
+            <button onclick="closePopup()">Yes, I want</button>
+        </div>
+    </div>
+    <p id="lazy-note" class="lazy-note">The programmer was too lazy to add the guide, just click on the middle button and boom</p>
     <script src="script.js"></script>
 </body>
 </html>
